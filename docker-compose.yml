@@ -1,0 +1,13 @@
+backend:
+  build: ./backend/
+  volumes:
+    - "./weather/backend"
+ports:
+  - "9000:9000"
+
+frontend:
+  build: ./frontend/
+  volumes:
+    - "./weather/frontend"
+ports:
+  - "9000:9000"
