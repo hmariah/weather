@@ -21,5 +21,5 @@ ENV MAP_ENDPOINT="http://api.openweathermap.org/data/2.5"
 ENV TARGET_CITY="Espoo,fi"
 ENV PORT=9000
 
-# Run app.py when the container launches
+# Run it
 CMD ["npm", "start"]
